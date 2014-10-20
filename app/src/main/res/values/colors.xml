@@ -1,0 +1,12 @@
+<resources>
+    <color name="tab_orange">#FF4400</color>
+    <color name="tab_dark_grey">#444444</color>
+    <color name="tab_medium_grey">#999999</color>
+    <color name="tab_light_grey">#E5E5E5</color>
+    <color name="tab_white">#FFFFFF</color>
+
+    <color name="primary">@color/tab_medium_grey</color>
+    <color name="primary_dark">@color/tab_dark_grey</color>
+
+    <color name="accent">@color/tab_orange</color>
+</resources>
