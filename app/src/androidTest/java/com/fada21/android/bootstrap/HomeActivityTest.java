@@ -10,13 +10,13 @@ import org.robolectric.annotation.Config;
 
 import static org.junit.Assert.assertTrue;
 
-@Config(manifest = "./app/src/main/AndroidManifest.xml")
+@Config(emulateSdk = 17)
 @RunWith(RobolectricTestRunner.class)
 public class HomeActivityTest {
 
     @Test
     public void testSomething() throws Exception {
         Activity activity = Robolectric.buildActivity(HomeActivity.class).create().get();
-        assertTrue(activity == null);
+        assertTrue(activity != null);
     }
 }
