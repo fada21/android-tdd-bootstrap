@@ -7,6 +7,10 @@
     <string name="action_share">Share</string>
     <string name="action_settings">Settings</string>
 
+    <string name="device_screen_label">Device: %s</string>
     <string name="device_screen">Phone</string>
+
+    <string name="btn_home_msg">Don\'t click me</string>
+    <string name="btn_home_toast">Button clicked</string>
 
 </resources>

@@ -9,14 +9,19 @@ import android.support.v7.widget.ShareActionProvider;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 // toolbar added as suggested here https://chris.banes.me/2014/10/17/appcompat-v21/
-public class HomeActivity extends ActionBarActivity {
+public class HomeActivity extends ActionBarActivity implements View.OnClickListener {
 
     private Toolbar mToolbar;
     private SearchView mSearchView;
     private ShareActionProvider mShareActionProvider;
+    private Button mButton;
+    private TextView mTextViewDevice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +30,13 @@ public class HomeActivity extends ActionBarActivity {
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
+
+        mTextViewDevice = (TextView) findViewById(R.id.tv_device);
+        mTextViewDevice.setText(getString(R.string.device_screen_label, getString(R.string.device_screen)));
+
+        mButton = (Button) findViewById(R.id.button);
+        mButton.setOnClickListener(this);
+
     }
 
     @Override
@@ -62,4 +74,12 @@ public class HomeActivity extends ActionBarActivity {
         return intent;
     }
 
+    @Override
+    public void onClick(View v) {
+        int id = v.getId();
+        switch (id) {
+            case  R.id.button:
+                Toast.makeText(this, R.string.btn_home_toast, Toast.LENGTH_SHORT).show();
+        }
+    }
 }
