@@ -1,7 +1,9 @@
-apply plugin: 'com.android.application'
+apply plugin: 'android'
 apply plugin: 'robolectric'
 
+//
 // might be useful - https://gist.github.com/anonymous/d0f0bac71a0fb76f8454
+// and this - https://github.com/robolectric/deckard-gradle
 android {
     compileSdkVersion 21
     buildToolsVersion "21.0.1"
