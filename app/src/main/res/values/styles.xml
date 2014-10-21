@@ -1,10 +1,10 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="Theme.TabTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Base application theme. might be useful - https://chris.banes.me/2014/10/17/appcompat-v21/ -->
+    <style name="Theme.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
-        <item name="actionBarStyle">@style/TabActionBarStyle</item>
-        <item name="searchViewStyle">@style/TabSearchViewStyle</item>
+        <item name="actionBarStyle">@style/AppActionBarStyle</item>
+        <item name="searchViewStyle">@style/AppSearchViewStyle</item>
 
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
@@ -12,12 +12,22 @@
 
     </style>
 
-    <style name="TabActionBarStyle" parent="Widget.AppCompat.ActionBar">
+    <!-- might be useful - http://www.jayway.com/2014/06/02/android-theming-the-actionbar/ -->
+    <style name="AppActionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@color/accent</item>
         <!-- style when needed -->
     </style>
 
-    <style name="TabSearchViewStyle" parent="Widget.AppCompat.SearchView">
+    <style name="AppActionBarToolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/accent</item>
+        <!-- style when needed -->
+    </style>
+
+    <style name="AppActionBarToolbarPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <!-- style when needed -->
+    </style>
+
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
         <!-- style when needed -->
     </style>
 

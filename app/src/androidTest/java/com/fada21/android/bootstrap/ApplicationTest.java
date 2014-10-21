@@ -1,4 +1,4 @@
-package com.tab.bootstrap.api21stub;
+package com.fada21.android.bootstrap;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
