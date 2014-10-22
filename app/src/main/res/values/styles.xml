@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. might be useful - https://chris.banes.me/2014/10/17/appcompat-v21/ -->
-    <style name="Theme.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
         <item name="actionBarStyle">@style/AppActionBarStyle</item>
         <item name="searchViewStyle">@style/AppSearchViewStyle</item>

@@ -50,8 +50,8 @@ robolectric {
 // be careful with that, causes lots of pain
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:21.0.0'
-    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.android.support:support-v4:21.0.+'
+    compile 'com.android.support:appcompat-v7:21.0.+'
     compile 'com.google.guava:guava:18.0'
     compile 'com.squareup.dagger:dagger:1.2.2'
 
