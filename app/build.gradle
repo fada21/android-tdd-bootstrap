@@ -54,7 +54,7 @@ dependencies {
         exclude module: 'hamcrest-core'
     }
 
-    androidTestCompile('org.robolectric:robolectric:2.3') {
+    androidTestCompile('org.robolectric:robolectric:2.4-SNAPSHOT') {
         exclude module: 'classworlds'
         exclude module: 'commons-logging'
         exclude module: 'httpclient'
@@ -72,4 +72,11 @@ dependencies {
         exclude module: 'wagon-provider-api'
     }
 
+}
+
+repositories {
+    jcenter()
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
 }
