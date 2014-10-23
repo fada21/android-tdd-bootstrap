@@ -27,7 +27,7 @@ public class HomeActivity extends ActionBarActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ac_home);
-getSupportActionBar().getThemedContext();
+
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
@@ -78,7 +78,7 @@ getSupportActionBar().getThemedContext();
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
-            case  R.id.btn_home:
+            case R.id.btn_home:
                 Toast.makeText(this, R.string.btn_home_toast, Toast.LENGTH_SHORT).show();
         }
     }
