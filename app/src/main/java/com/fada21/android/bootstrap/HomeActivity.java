@@ -27,14 +27,14 @@ public class HomeActivity extends ActionBarActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ac_home);
-
+getSupportActionBar().getThemedContext();
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
-        mTextViewDevice = (TextView) findViewById(R.id.tv_device);
+        mTextViewDevice = (TextView) findViewById(R.id.tv_home_device);
         mTextViewDevice.setText(getString(R.string.device_screen_label, getString(R.string.device_screen)));
 
-        mButton = (Button) findViewById(R.id.button);
+        mButton = (Button) findViewById(R.id.btn_home);
         mButton.setOnClickListener(this);
 
     }
@@ -78,7 +78,7 @@ public class HomeActivity extends ActionBarActivity implements View.OnClickListe
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
-            case  R.id.button:
+            case  R.id.btn_home:
                 Toast.makeText(this, R.string.btn_home_toast, Toast.LENGTH_SHORT).show();
         }
     }
