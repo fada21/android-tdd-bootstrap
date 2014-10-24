@@ -21,5 +21,7 @@ public class HomeActivityRoboTest {
         assertTrue(activity != null);
     }
 
+    // examples - https://github.com/paweldudek/android-tdd-workshop/tree/robolectric_solution/robolectric/src/test/java/pl/mobilewarsaw/robolectric
+    // on branch robolectric_solution
 
 }
