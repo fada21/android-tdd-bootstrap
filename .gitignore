@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+Api21stub.iml
+app/
+build/
+local.properties
