@@ -63,7 +63,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:support-v4:21.0.+'
     compile 'com.android.support:appcompat-v7:21.0.+'
-    compile 'com.android.support:cardview-v7:21.0.+'
     compile 'com.google.guava:guava:14.0.1'
 
     // Espresso - https://code.google.com/p/android-test-kit/source/browse/#git%2Fbin%2Fespresso-dependencies
