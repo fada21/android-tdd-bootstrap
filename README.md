@@ -1,3 +1,8 @@
+# @Deprecated
+
+Use google tools - refer to [android-testing][]
+I wouldn't recommend using Robolectric. For unit test I'd use available JUnit support and for platform tests I'd go for Espresso.
+
 android-tdd-bootstrap
 =====================
 ##Goal:
@@ -91,16 +96,16 @@ Espresso test was working but still I had to many issues on the way to recommend
  - robolectric not working for Appcompat, useless for TDD until it'll be fixed
  - reported [issues][3]
  - problem posted on [stackoverflow][4]
+ - style related posts on [stackoverflow][6]
+ - new test tools from google -> [android-testing][7]
 
  [1]: https://chris.banes.me/2014/10/17/appcompat-v21
  [2]: https://github.com/robolectric/deckard-gradle
  [3]: https://github.com/robolectric/robolectric/issues/1332
  [4]: http://stackoverflow.com/questions/26512839/android-lolipop-appcompat-problems-running-with-robolectric
  [5]: http://tryge.com/2013/02/28/android-gradle-build/
- [6]: https://code.google.com/p/android-test-kit/issues/detail?id=84
- [7]: ??? add ioshed link
- [8]: add double-espresso
- [9]: http://stackoverflow.com/questions/24231913/cant-find-parent-for-styledata-when-using-robolectric-in-android-studio-with-ap
+ [6]: http://stackoverflow.com/questions/24231913/cant-find-parent-for-styledata-when-using-robolectric-in-android-studio-with-ap
+ [7]: https://github.com/googlesamples/android-testing
 
  ##Next?
 
