@@ -92,6 +92,7 @@ Espresso summary:
  - backed by Google
 
 ##Conclusion
+
 I was not very successful (in terms of using appcompat-v7:21).
 My TDD attempt with Android failed. Hopefully it will get to work eventually.
 Espresso test was working but still I had to many issues on the way to recommend that.
