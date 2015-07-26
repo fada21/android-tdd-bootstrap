@@ -1,6 +1,7 @@
 # @Deprecated
 
 Use google tools - refer to Google's [android-testing][7]
+
 I wouldn't recommend using Robolectric. For unit test I'd use available JUnit support and for platform tests I'd go for Espresso.
 
 android-tdd-bootstrap
