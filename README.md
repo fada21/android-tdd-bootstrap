@@ -1,6 +1,6 @@
 # @Deprecated
 
-Use google tools - refer to [android-testing][]
+Use google tools - refer to Google's [android-testing][7]
 I wouldn't recommend using Robolectric. For unit test I'd use available JUnit support and for platform tests I'd go for Espresso.
 
 android-tdd-bootstrap
@@ -86,7 +86,9 @@ had no time nor energy to chase that.
 
 Espresso summary:
 
- - nice
+ - nice DSL
+ - fast UI testing
+ - backed by Google
 
 ##Conclusion
 I was not very successful (in terms of using appcompat-v7:21).
